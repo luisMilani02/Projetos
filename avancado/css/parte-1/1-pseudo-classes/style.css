@@ -1,0 +1,25 @@
+p:first-child {
+    color: white;
+    background-color: gray;
+}
+
+p:last-child {
+    color: white;
+    background-color: gray;
+}
+
+h2 {
+    margin: 50px 0px;
+}
+
+p {
+    margin: 40px 0px;
+}
+
+li:nth-child(odd){
+    color: red;
+}
+
+p:only-child {
+    color: red;
+}

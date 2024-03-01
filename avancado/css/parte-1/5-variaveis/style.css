@@ -1,0 +1,24 @@
+:root {
+    --cor: red;
+    --font: 20px;
+}
+
+h2 {
+    color: var(--cor, blue);
+    font-size: var(--font, 25px);
+}
+
+h3 {
+    color: var(--cor, blue);
+    font-size: var(--font, 25px);
+}
+
+p {
+    color: var(--cor, blue);
+    font-size: var(--font, 25px);
+}
+
+span {
+    color: var(--cor, blue);
+    font-size: var(--font, 25px);
+}

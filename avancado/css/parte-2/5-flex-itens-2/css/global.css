@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    border: 2px solid #a0a0a0;
+}
+
+.item {
+    background-color: rgb(195, 145, 241);
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    height: 50px;
+    flex: 1;
+}
+

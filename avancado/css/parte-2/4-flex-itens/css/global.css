@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    border: 2px solid grey;
+}
+
+.item {
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 2px;
+}

@@ -1,0 +1,35 @@
+.container > div {
+    border: 1px solid black;
+    background-color: #8a2be2;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.container > div:hover {
+    transition-duration: 250ms;
+    background-color: #9a48e6;
+}
+
+.container {
+    display: grid;
+
+    justify-content: center;
+    align-self: center;
+
+    /* grid-template-columns: auto auto; Ruim */
+    /* grid-template-columns: repeat(3, 150px); Bom */
+    /* grid-template-rows: 200px 150px 100px 50px;  Ruim */
+    /* grid-template-rows: repeat(3, 150px); Bom  */
+
+    grid-template: repeat(3, 150px) / repeat(3, 150px); /* primeiro valor serve para coluns e o segundo para rows*/
+
+    grid-gap: 10px 10px; /* primeiro valor serve para coluns e o segundo para rows*/
+}
+
+.div {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+p::first-line {
+    background-color: black;
+    color: white;
+}
+
+p::first-letter {
+    color: red;
+}
+
+li::marker {
+    color: blue;
+    font-size: 50px;
+}
+
+.before::before {
+    content: url(https://placekitten.com/100);
+}
+
+.after::after {
+    content: url(https://placekitten.com/100);
+}
+

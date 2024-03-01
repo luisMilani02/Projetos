@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.direction {
+    flex-direction: column-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flow {
+    flex-flow: row-reverse wrap;
+}
+
+.item {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+}
